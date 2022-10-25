@@ -1,0 +1,40 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hallo", "hai", "halo", "hei", "hi", "hy", "pagi", "morning", "siang", "afternoon", "sore", "malam", "bro", "sis", "kawan", "brodii"],
+      "responses": ["Hai! Dengan Faiz", "Halo! Saya Faiz , salam kenal ya! Mau tau tentang kuliner di kota Brebes, kan?", "Helo! Ini Faiz. Lagi kepo tentang kuliner di Brebes ya?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Dah", "Dadah", "Bye", "Byee", "Good bye", "Selamat tinggal", "Sampai jumpa", "Bai", "See you"],
+      "responses": ["Bye!", "Dadahh!", "Good bye!", "Dahh, semoga harimu menyenangkan yaa!", "Sampai jumpa lagi!", "See u! Senang bisa membantu"]
+    },
+    {
+      "tag": "terimakasih",
+      "patterns": ["Thanks", "Thank you", "Terima kasih", "Makasih", "Terima kasih banyak"],
+      "responses": ["Dengan senang hati:)"]
+    },
+    {
+      "tag": "penjelasan_kota_brebes",
+      "patterns": ["bagaimana dengan kota Brebes?"],
+      "responses": [
+        "Kabupaten Brebes (bahasa Jawa: ꦧꦽꦧꦼꦱ꧀; bahasa Sunda: ᮘᮢᮨᮘᮨᮞ᮪) adalah salah satu kabupaten di provinsi Jawa Tengah, Indonesia. Luas wilayahnya 1.769,62 km², jumlah penduduknya berdasarkan hasil Sensus Penduduk Indonesia 2020 berjumlah 1.978.759 jiwa.[1] Ibu kotanya ada di Kecamatan Brebes. Brebes merupakan kabupaten dengan jumlah penduduk paling banyak di Jawa Tengah, dan paling luas di Jawa Tengah ke-2 setelah Kabupaten Cilacap."
+      ]
+    },
+    {
+      "tag": "wisata kuliner kota Brebes",
+      "patterns": ["Apa saja kuliner di kota Brebes yang enak dan murah?"],
+      "responses": [
+        "Brebes dikenal menyimpan banyak destinasi wisata yang menarik untuk dijelajahi, tanpa terkecuali wisata kulinernya. Inilah rekomendasi tempat kulineran di Brebes yang terkenal enak dan memiliki harga yang terjangkau. Jika Anda sedang mudik dan kemudian melewati Brebes, ada baiknya untuk singgah sebentar mencicipi kulinernya. Atau Anda yang sedang liburan di kota ini, jangan sampai melewatkan cita rasa khasnya. Mengingat kota ini menyimpan rasa yang mampu memanjakan lidah siapapun yang mencicipinya. Berikut beberapa tempat kuliner yang bisa Anda jadikan alternatif saat berada di Brebes."
+      ]
+    },
+    {
+      "tag": "rekomendasi_kuliner_di_brebes_yang_enak_dan_murah",
+      "patterns": ["Apa saja rekomendasi kuliner di Brebes?"],
+      "responses": [
+        "rekomendasi nya ada Soto Brebes, sate blengong, Cigedug Kersana, Sate Kambing Muda H. Suharjo, Bakso Pak Gimin, Telur Asin Alun-Alun, Warung Makan Kampung Alang Alang, Rumah Makan Kedung Roso, Cemara Bondan, Ketan Pecok"
+      ]
+    }
+  ]
+}
